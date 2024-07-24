@@ -8,8 +8,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 from langdetect import detect
 
 
-cid = "05a0653d195d4a3b9a082dc2d496e3d7"
-secret = "5fe33aec7514436ab734b6419d429f01"
+cid = ""
+secret = ""
 scope = "user-library-read"
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope, client_id=cid, client_secret=secret, redirect_uri="http://localhost/"))
