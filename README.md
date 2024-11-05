@@ -1,0 +1,1 @@
+Um programa que utiliza as APIs do Spotify e do Genius para obter as suas músicas curtidas no spotify e criar uma playlist apenas com as em português. Ele funciona seguindo o seguinte fluxo: obter música curtida, obter letra da música, detectar a língua da letra, adicionar na playlist.
